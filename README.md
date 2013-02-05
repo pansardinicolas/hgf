@@ -1,4 +1,4 @@
-mygit
+hgf
 =====
 
-just mine
+Hybrid Gene Finder website repository
