@@ -1,0 +1,126 @@
+
+Started HGF Seg Jan 28 09:51:01 BRST 2013
+Done HGF Seg Jan 28 09:51:01 BRST 2013
+Started HGF Seg Jan 28 09:52:02 BRST 2013
+Done HGF Seg Jan 28 09:52:02 BRST 2013
+Started HGF Seg Jan 28 09:53:01 BRST 2013
+Done HGF Seg Jan 28 09:53:01 BRST 2013
+Started HGF Seg Jan 28 09:54:01 BRST 2013
+Done HGF Seg Jan 28 09:54:01 BRST 2013
+Started HGF Seg Jan 28 09:55:01 BRST 2013
+Done HGF Seg Jan 28 09:55:01 BRST 2013
+Started HGF Seg Jan 28 09:56:01 BRST 2013
+Done HGF Seg Jan 28 09:56:01 BRST 2013
+Started HGF Seg Jan 28 09:57:01 BRST 2013
+Done HGF Seg Jan 28 09:57:01 BRST 2013
+Started HGF Seg Jan 28 10:01:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (6640)
+    '(247) Executing "collimonas.fas" (6640)'
+
+(247) Completed "hgf_collimonas.gbk" (6640)
+HGF Finished  (6640) in 162 segs
+Done HGF Seg Jan 28 10:03:45 BRST 2013
+Started HGF Seg Jan 28 17:07:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (6514)
+    '(248) Executing "bicho2.fas" (6514)'
+
+(248) Completed "hgf_bicho2.gbk" (6514)
+HGF Finished  (6514) in 159 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Seg Jan 28 17:09:41 BRST 2013
+Started HGF Ter Jan 29 10:59:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (26781)
+    '(249) Executing "Herbaspirillum_rubrisubalbicans_revisao_2.fasta" (26781)'
+
+(249) Completed "hgf_Herbaspirillum_rubrisubalbicans_revisao_2.gbk" (26781)
+HGF Finished  (26781) in 166 segs
+Done HGF Ter Jan 29 11:01:49 BRST 2013
+Started HGF Qua Jan 30 12:00:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (19542)
+    '(251) Executing "bicho2.fas" (19542)'
+
+(251) Completed "hgf_bicho2.gbk" (19542)
+HGF Finished  (19542) in 159 segs
+Done HGF Qua Jan 30 12:02:42 BRST 2013
+Started HGF Qua Jan 30 15:14:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (23735)
+    '(252) Executing "bicho2.fas" (23735)'
+
+(252) Completed "hgf_bicho2.gbk" (23735)
+HGF Finished  (23735) in 163 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Qua Jan 30 15:16:46 BRST 2013
+Started HGF Sex Fev 1 10:47:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (28549)
+    '(253) Executing "collimonas.fas" (28549)'
+
+(253) Completed "hgf_collimonas.gbk" (28549)
+HGF Finished  (28549) in 161 segs
+Done HGF Sex Fev 1 10:49:43 BRST 2013
+Started HGF Sex Fev 1 11:21:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (28956)
+    '(254) Executing "bicho2.fas" (28956)'
+
+(254) Completed "hgf_bicho2.gbk" (28956)
+HGF Finished  (28956) in 158 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Sex Fev 1 11:23:41 BRST 2013
+Started HGF Sex Fev 1 12:04:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (3189)
+    '(256) Executing "sequence-1.fasta" (3189)'
+
+(256) Completed "hgf_sequence-1.gbk" (3189)
+HGF Finished  (3189) in 26 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Sex Fev 1 12:04:29 BRST 2013
+Started HGF Sex Fev 1 12:13:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (31186)
+    '(259) Executing "sequence(1).fasta" (31186)'
+
+(259) Completed "hgf_sequence(1).gbk" (31186)
+HGF Finished  (31186) in 25 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Sex Fev 1 12:13:29 BRST 2013
+Started HGF Sex Fev 1 12:17:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (31266)
+    '(260) Executing "sequence(1).fasta" (31266)'
+
+(260) Completed "hgf_sequence(1).gbk" (31266)
+    '(261) Executing "sequence(1).fasta" (31266)'
+
+(261) Completed "hgf_sequence(1).gbk" (31266)
+HGF Finished  (31266) in 26 segs
+{Warning: Objects of 'nnetParam' class exist.  Cannot clear this class or any of
+its super-classes.} 
+Done HGF Sex Fev 1 12:17:29 BRST 2013
+Started HGF Sex Fev 1 12:21:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (31341)
+    '(262) Executing "sequence-1.fasta" (31341)'
+
+(262) Completed "hgf_sequence-1.gbk" (31341)
+HGF Finished  (31341) in 25 segs
+Done HGF Sex Fev 1 12:21:29 BRST 2013
+Started HGF Seg Fev 4 11:42:01 BRST 2013
+Warning: No display specified.  You will not be able to display graphics on the screen.
+HGF started (6568)
+    '(263) Executing "bicho2.fas" (6568)'
+
+(263) Completed "hgf_bicho2.gbk" (6568)
+HGF Finished  (6568) in 159 segs
+Done HGF Seg Fev 4 11:44:42 BRST 2013

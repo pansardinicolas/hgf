@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+                <head>
+                <title>Bioinformática UFPR: HGF gene marking tool</title>
+                <meta name="author" content="Roberto Tadeu Raittz" />
+                <meta name="description" content="Gene marking tool"/>
+                <meta name="keywords" content="bioinformatics, bioinformatica, hgf, ufpr, bioinfo, gene marking tool, gene, biology, orf, computational biology, gbk, fasta"/>
+                <meta name="Content-type" content="text/html"; charset= utf-8 />
+                <link rel="stylesheet"type="text/css"href="style.css" />
+		<script type="text/javascript">
+
+		 var _gaq = _gaq || [];
+		 _gaq.push(['_setAccount', 'UA-34743812-1']);
+		 _gaq.push(['_trackPageview']);
+		_gaq.push(['_trackPageLoadTime']);
+
+		 (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+
+		</script>
+
+        </head>
+        <body>
+                <!--START OF HEADER -->
+                <div id="header">
+                        <h1 class="headermain">HGF gene marking tool</h1>
+			<span class="headersecond">Hybrid Gene Finder</span>	
+                </div>
+                <div class="navbar clearfix">
+                        <div class="breadcrumb">
+                         <ul>
+                          <li class="first"><a href="http://www.bioinfo.ufpr.br/">bioinformática</a></li>
+                          <li> <span class="accesshide " >&nbsp;</span><span class="arrow sep">&#x25BA;</span> HGF gene marking tool</li>
+                         </ul>
+                        </div>
+                        <div class="navbutton">&nbsp;</div>
+                </div>
+                <!-- END OF HEADER -->
+                <div id="input">
+                        <table class="instr">
+                                       <tr>
+                                         <th><a href="./upinterfaceweb.php">HGF</a></th>
+                                         <th><a href="./instructions.html">Instructions</a></th>
+                                         <th><a href="./output.html">Output</a></th>
+                                        </tr>
+                        </table>
+               		<div id="fieldset2">
+				<h1>Output Format</h1>
+				<hr>
+				<h3>Description</h3>
+				<p>
+					The output conforms to GenBank format (.gbk), which contains three sections:
+					<ul>
+					 <li>Header:</li>
+					Contains information about organism, publications, accession ID, and others.
+					 <li>Features:</li>
+					Contains all sequence annotations as visualized by <a href="http://www.sanger.ac.uk/resources/software/artemis/">Artemis&#174;</a>. A list of pre annotation blocks of gene, with the predicted CDS (protein coding sequence),</br>
+					its ORF range limits (open reading frame, which means a nucleotide sequence between a start and stop codons, long enough to encode for	a typical</br>
+					protein) and its color schema, determined depending on the ORF's predictive score, ranging from gray, pink and red (regarding to increasing confidence,</br>
+					respectively).   
+					 <li>Origin:</li>
+					Contains the DNA sequence.
+					</ul>
+				</p>
+				<h3>Example output</h3>
+				<b id="gbkexample">
+					LOCUS</br>        
+					DEFINITION </br>  
+					ACCESSION    </br>
+					VERSION      </br>
+					KEYWORDS     </br>
+					SOURCE       </br>
+					&nbsp;&nbsp;ORGANISM   </br>
+					FEATURES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location/Qualifiers</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gene&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;338..610</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0001"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;338..610</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0001"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/function=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/product=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/note="ScoreRede=0.6512"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/color=13</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gene&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;723..1547</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0002"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;723..1547</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0002"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/function=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/product=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/note="ScoreRede=0.83189"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/color=12</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gene&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;complement(1446..1625)</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0003"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;complement(1446..1625)</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0003"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/function=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/product=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/note="ScoreRede=0.52725"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/color=13</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gene&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1699..2961</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0004"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1699..2961</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/gene="0001.0004"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/function=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/product=""</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/note="ScoreRede=0.99333"</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/color=15</br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( ... )</br>
+					ORIGIN</br>
+				      &nbsp;&nbsp;&nbsp;1 AAGACGCGCT GCCGCATGGC GGCGCAAGGG GATCCGGCGC GCCATGAGCA AACCGGAACG</br>
+				      &nbsp;&nbsp;61 CGCGCAAGCA CGGCCTGTTC AGCAGGGATG CGATCGAGGA GCGACGGCAG ATTCGGGCGT</br>
+				      &nbsp;121 TGTTGGGGGA GGTGCGGAGC TACTGGAAGA GATAAAGTGA CTACTTGAAC CGAAGGCGCG</br>
+				      &nbsp;181 ATTGGGATGG ATCGCAGCGG CGGACAATCG AAAGAGGCCA ACAAATACAA CCGTAAGCGG</br>
+				      &nbsp;241 CTTCGCTGCG CTGTGAATCC TACCAACTTA GCCTCCTGCT CGACCAAGTT TATGGGCCTC</br>
+				      &nbsp;301 GCAAGCCGCG GTTTCACGCC GCCTAGGGCT CAAGCAAATG TGTCAGTGGT CTAAGTCGCC</br>
+				      &nbsp;361 CCAAAGGATC GAGGCAGCAG ATGTGAATAG TACGCTGCGC GATCTCAACT TGAATCTGGC</br>
+				      &nbsp;421 TGCAGAAGAC GGAGTTCAGG GCGTCGATTG GCCTGAAGAT CCAGGTCAGG AAACCTCCCC</br>
+				      &nbsp;481 TTTGGACGAA CTGCGCGAAT GGTATGAAGG ACTTAATCCA CGCCCAAGCG GGATTGACTT</br>
+				      &nbsp;541 TGATCTCATC CGGGAGGGCG GATTCGGCGG CTCAATTACG TTTGACTGCG ATATTTTTGG</br>
+				      &nbsp;601 GGGCTCTTAA CTGAGCGTGG CATCATGAAA AAGACCGTAA AAAACCGGGT ACGCGCGCCA</br>
+				      &nbsp;661 GCTTGGGCGG TCCTGTTGAG CTTATTCTTC GCATCAACCC AGTCGAACGC TGAGCCAAGC</br>
+				      &nbsp;721 TAATGAGGGT CTCGTATGAA GACGGACGCC GGGTGTTTGT TATAGGAACC GGCAACATCA</br>
+				      &nbsp;781 ATTACAGCCT GTACGGGACC AGAGACGTTT GGCTCTTTGT ATCAGCCGCA CCCTCCTCAC</br>
+				      &nbsp;841 AAGAATCTTC GATAGAAAAG GACCTCAGGT GTCAGATCAG CGTTCTGGTT GACCCCCAAT</br>
+				      &nbsp;( ... )</br>	
+		//
+				</b>
+			</div>
+		 </div>
+        </body>
+</html>
+

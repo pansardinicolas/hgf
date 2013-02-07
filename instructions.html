@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+                <head>
+                <title>Bioinformática UFPR: HGF gene marking tool</title>
+                <meta name="author" content="Roberto Tadeu Raittz" />
+                <meta name="description" content="Gene marking tool"/>
+                <meta name="keywords" content="bioinformatics, bioinformatica, hgf, ufpr, bioinfo, gene marking tool, gene, biology, orf, computational biology, gbk, fasta"/>
+                <meta name="Content-type" content="text/html"; charset= utf-8 />
+                <link rel="stylesheet"type="text/css"href="style.css" />
+		<script type="text/javascript">
+
+		 var _gaq = _gaq || [];
+		 _gaq.push(['_setAccount', 'UA-34743812-1']);
+		 _gaq.push(['_trackPageview']);
+		_gaq.push(['_trackPageLoadTime']);
+
+		 (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+
+		</script>
+
+        </head>
+        <body>
+                <!--START OF HEADER -->
+                <div id="header">
+                        <h1 class="headermain">HGF gene marking tool</h1>
+               		<span class="headersecond">Hybrid Gene Finder</span>
+		 </div>
+                <div class="navbar clearfix">
+                        <div class="breadcrumb">
+                         <ul>
+                          <li class="first"><a href="http://www.bioinfo.ufpr.br/">bioinformática</a></li>
+                          <li> <span class="accesshide " >&nbsp;</span><span class="arrow sep">&#x25BA;</span> HGF gene marking tool</li>
+                         </ul>
+                        </div>
+                        <div class="navbutton">&nbsp;</div>
+                </div>
+                <!-- END OF HEADER -->
+                <div id="input">
+                        <table class="instr">
+                                       <tr>
+                                         <th><a href="./upinterfaceweb.php">HGF</a></th>
+                                         <th><a href="">Instructions</a></th>
+                                         <th><a href="./output.html">Output</a></th>
+                                        </tr>
+                        </table>
+               		<div id="fieldset2">
+				<h1>Instructions</h1>
+				<hr>
+				<ol>
+				 <li><h3>Upload your input sequences</h3></li>
+				 <p>
+					All the input sequences must be in FASTA format (.fasta) (.fas) as in one-letter nucleotide code (A, C, G, T and N (unknown)).</br>
+					Select individual files from your file system. Multiple files are allowed you can upload as many as you wish, thereafter, they will be individually processed.</br>
+					Or it is possible to paste your imput sequence in the text area, the title is optional, if the field is submitted empty it will be named as the current time and </br>
+					date in a string with "'month day''mont'hours':'minutes':'seconds'.fasta" (e.g., 10September16:03:02.fasta).
+				 </p>
+				 <li><h3>Run gene marking tool</h3></li>
+				 <p>
+				 Push the "run" button and then a page will be displayed with your ID, with the status of your files and a link which can be clicked when the status becomes</br>
+completed. Whenever it is allowed to return to the main page and keep uploading, or even to close the page and return by pasting the ID over the url</br> 
+ (www.bioinfo.ufpr.br/jobqueue.php?id=XXXXX).
+ 
+				</p>
+				 <li><h3>Pick up your results</h3></li>
+				 <p>
+					You can choose to download your result by clicking over the download link or to display on screen by clicking over the fasta file's name.</br> 
+					If you uploaded more than one input it will load until all of them are processed, result's links will appear upon the conclusion of each individual process.</br>
+					Your session remains open until the browser is closed, furthermore, result files will be available for about 24 hours.
+				 </p>
+				</ol>
+			</div>
+		 </div>
+        </body>
+</html>
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<title>Bioinformática UFPR: HGF gene marking tool</title>
+		<meta name="author" content="Roberto Tadeu Raittz" />
+		<meta name="description" content="HGF Gene marking tool"/>
+		<meta name="keywords" content="bioinformatics, bioinformatica, hgf, ufpr, bioinfo, gene marking tool, gene, biology, orf, computational biology, gbk, fasta, hgf ufpr bioinfo, HGF"/>
+		<meta name="robot" content="Index, Follow" />
+		<meta name="Content-type" content="text/html"; charset= utf-8 />
+		<link rel="stylesheet"type="text/css"href="style.css" />
+		<script type="text/javascript">
+
+		 var _gaq = _gaq || [];
+		 _gaq.push(['_setAccount', 'UA-34743812-1']);
+		 _gaq.push(['_trackPageview']);
+	      	 _gaq.push(['_trackPageLoadTime']);
+
+		 (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<!--START OF HEADER -->
+			<div id="header">
+				<h1 class="headermain">HGF gene marking tool</h1>
+				<span class="headersecond">Hybrid Gene Finder</span>
+			</div>
+			<div class="navbar clearfix">
+				<div class="breadcrumb">
+				 <ul>
+				  <li class="first"><a href="http://www.bioinfo.ufpr.br/">bioinformática</a></li>
+				  <li> <span class="accesshide " >&nbsp;</span><span class="arrow sep">&#x25BA;</span> HGF gene marking tool</li>
+				 </ul>
+				</div>
+				<div class="navbutton">&nbsp;</div>
+			</div>
+			<!-- END OF HEADER -->
+			<div id="input">
+				<table class="instr">
+						<tr>
+						 <th><a href="./upinterfaceweb.php">HGF</a></th>
+						 <th><a href="./instructions.html">Instructions</a></th>
+						 <th><a href="./output.html">Output</a></th>
+						</tr>
+				</table>			
+				<div id="fieldset2">
+					<p><b class="legend">Query Sequence</b></p>			
+					<b>Enter FASTA sequence (.fasta) (.fas)</b>
+					<form enctype="multipart/form-data" action="uploader.php" method="post"> 
+					Please choose a file (max 25M): <input name="uploaded" type="file" /><br />
+						<input type="submit" value="Upload File" />
+					 </form> 			
+					<p><b>Or paste your FASTA sequence(s)</b></p>
+					<form method="post" action="uploader2.php">
+					<tr>
+					 <td>Title (optional):</br></td>
+					 <td><input type="text" name="title"></br></td>
+					</tr>
+					<tr>
+					 <td>Sequence text:</br></td>
+					 <td><textarea name="sequence" cols="80" rows="5" style="width:80%">
+					 </textarea></br></td>
+					</tr>
+					<input type="submit" value="Submit" />
+					</form>
+				</div>				
+				<div id="fieldset2">
+					<div id="run">		
+						<div id="function">
+							<a href="">RUN</a>
+						</div>
+						<div id="runsummary">
+							Make GBK pre annotation files running HGF
+						</div>
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</body>
+</html>

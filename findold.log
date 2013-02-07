@@ -1,0 +1,110 @@
+./uploads/17January8:42:14.fasta
+filein bicho2.fas
+163
+
+./uploads/azfp01.fas
+filein bicho2.fas
+164
+
+./uploads/azos_ch_rep123457_ord254.fas
+filein bicho2.fas
+165
+
+./results/hgf_20December22:37:29.gbk
+./results/hgf_bacillus.gbk
+./results/hgf_bicho10.gbk
+./results/hgf_bicho1.gbk
+./results/hgf_bicho3.gbk
+./results/hgf_bicho4.gbk
+./results/hgf_bicho5.gbk
+./results/hgf_Ecoli.gbk
+./results/hgf_eyeless.gbk
+./results/hgf_hermiimonas.gbk
+./results/hgf_hsero2.gbk
+./results/hgf_neisseria.gbk
+./results/hgf_new
+2.gbk
+./results/hgf_novoarquivo.gbk
+./results/hgf_sequence.gbk
+./results/hgf_teste.gbk
+./uploads/28January9:37:16.fasta
+filein sequence.fasta
+166
+
+./uploads/28January9:37:26.fasta
+filein bicho3.fas
+167
+
+./uploads/collimonas.fas
+filein sequence.fasta
+168
+
+./results/hgf_collimonas.gbk
+./results/hgf_new
+2.gbk
+Started Findold Qui Jan 31 14:00:01 BRST 2013
+	Oldest file in uploads is ./uploads/Herbaspirillum_rubrisubalbicans_revisao_2.fasta
+	Oldest file in bd filein bicho3.fas
+	id: 169
+
+	Oldest file in results is ./results/hgf_Herbaspirillum_rubrisubalbicans_revisao_2.gbk
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Qui Jan 31 14:00:01 BRST 2013
+Started Findold Sex Fev 1 14:00:01 BRST 2013
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Sex Fev 1 14:00:01 BRST 2013
+Started Findold Sáb Fev 2 14:00:01 BRST 2013
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Sáb Fev 2 14:00:01 BRST 2013
+Started Findold Dom Fev 3 14:00:01 BRST 2013
+	Oldest file in uploads is ./uploads/bicho2.fas
+	Oldest file in bd filein bicho3.fas
+	id: 170
+
+	Oldest file in uploads is ./uploads/collimonas.fas
+	Oldest file in bd filein bicho2.fas
+	id: 171
+
+	Oldest file in uploads is ./uploads/sequence-1.fasta
+	Oldest file in bd filein sequence.fasta
+	id: 172
+
+	Oldest file in uploads is ./uploads/sequence(1).fasta
+	Oldest file in bd filein bicho3.fas
+	id: 173
+
+	Oldest file in uploads is ./uploads/sequence.fasta
+	Oldest file in bd filein bicho2.fas
+	id: 174
+
+	Oldest file in results is ./results/hgf_bicho2.gbk
+	Oldest file in results is ./results/hgf_collimonas.gbk
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+	Oldest file in results is ./results/hgf_sequence-1.gbk
+	Oldest file in results is ./results/hgf_sequence(1).gbk
+Done findold Dom Fev 3 14:00:02 BRST 2013
+Started Findold Seg Fev 4 14:00:01 BRST 2013
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Seg Fev 4 14:00:01 BRST 2013
+Started Findold Ter Fev 5 14:00:01 BRST 2013
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Ter Fev 5 14:00:01 BRST 2013
+Started Findold Qua Fev 6 14:00:01 BRST 2013
+	Oldest file in uploads is ./uploads/bicho2.fas
+	Oldest file in bd filein bicho2.fas
+	id: 175
+
+	Oldest file in uploads is ./uploads/hsc20.fasta
+	Oldest file in bd filein bicho2.fas
+	id: 176
+
+	Oldest file in results is ./results/hgf_bicho2.gbk
+	Oldest file in results is ./results/hgf_new
+	Oldest file in results is 2.gbk
+Done findold Qua Fev 6 14:00:01 BRST 2013

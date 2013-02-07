@@ -1,0 +1,434 @@
+#wrapper {
+	min-width: 800px;/* Aqui colocas a largura mínima que pretendes */
+	max-width: 1680px;/* Aqui colocas a largura máxima que pretendes */
+}
+
+/*START OF HEADER*/
+#header {
+	background:url(http://www.bioinfo.ufpr.br/theme/bioinfo/pix/fundo_topo1.jpg) repeat-x scroll 0% 0% transparent;
+	margin-bottom: 0px;
+	padding: 0px 10px 0px 10px;
+	height: 31px;
+	color: #FAFAFA;
+	background-position: top;
+}
+
+#header .headermain {
+	font-size: 1em;
+}
+
+.headermain, h1.headermain {
+	margin: 0px;
+	padding: 0px;
+}
+
+.headersecond, h2.headersecond {
+	padding: 0px 0px 2px;
+	margin: 0px 0px 2px 0px;
+	font-size: 0.85em;
+
+}
+/*END OF HEADER*/
+
+.navbar {
+  width:auto;
+  background: url(http://www.bioinfo.ufpr.br/theme/bioinfo/pix/fundo_topo2b.jpg) repeat-x scroll left bottom transparent;
+  padding:6px 0.5em 0px;
+  height: 34px;
+}
+
+.navbar .langmenu {
+  text-align:right;
+}
+
+table.navbar {
+  width: 100%;
+}
+
+.navbar .navbutton {
+  margin-top: 3px;
+  float: left;
+}
+
+.navbar .navbutton div,
+.navbar .navbutton form {
+  display:inline;
+  margin:0px;
+  padding:0px;
+}
+
+.navbar .breadcrumb {
+  float:left;
+  margin:0.2em 0;
+}
+
+li {
+	  font-size: 12px;
+}
+
+.navbar ul {
+  color: rgb(0, 255, 255);
+}
+
+.navbar li a {
+  color: rgb(250, 250, 250);
+}
+
+.breadcrumb ul {
+  padding:0;
+  margin:0;
+  text-indent:0;
+  list-style:none outside none;
+}
+.breadcrumb li {
+  display:inline;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.breadcrumb {
+  font-weight: bold;
+}
+
+.breadcrumb .sep {
+  color: rgb(170, 170, 170);
+}
+
+.navbar .navbutton,
+.navbar .menu {
+  float:right;
+}
+
+#footer .navbar {
+  margin-top: 4em;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+/*#navbar {
+	background: url(http://www.bioinfo.ufpr.br/theme/bioinfo/pix/fundo_topo2b.jpg) repeat-x scroll left bottom transparent;
+	width: auto;
+	height: 34px;
+	border-bottom: 1px solid #DDD;
+	background-position: top;
+}*/
+
+#input {
+	background-color: #D3DFF5;
+	border: solid 1px #888;
+	padding: .7em;
+	font:83%/ 1.5 arial, tahoma, sans-serif;
+}
+
+#forminput {
+	margin-right: 1px;
+	float: left;
+	width: 45%;
+	height: 370px;
+	min-height: 380px;
+	min-width: 460px;
+}
+
+#uploaded {
+	margin-left: 45%;
+}
+
+#fieldset2 {
+	width: 89%;
+	padding: 0.5em 1em 0.5em;
+	background-color: #EEE;
+	border: solid 1px #CCC;
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+}
+
+#fieldset1 {
+	width: 80%;
+	height: 365px;
+	padding: 0.5em 1em 0.5em;
+	background-color: #EEE;
+	border: solid 1px #CCC;
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	margin-left: 1px;
+}
+
+#fieldset {
+	padding: 0.5em 1em 0.5em;
+	background-color: #EEE;
+	border: solid 1px #CCC;
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	height:365px;
+}
+
+table.instr {
+	font-size: 12px;
+	background-color: #CCCCCC;
+	text-align: center;
+	border-width: 1px;
+	border-color: #999999; 
+	border-collapse: collapse;
+	font-family: helvetica, verdana, arial, tahoma, sans-serif;
+	margin-bottom: 2px;
+}
+
+table.instr th {
+	border-color: #999999;
+	border-style: solid;
+	border-width: 1px;	
+	width: 7%;
+}
+
+table.instr th:hover {
+	background-color: #DDDDDD;
+	border-color: #999999;
+	border-style: solid;
+	border-width: 1px;	
+	width: 7%;
+}
+
+#carregador_pai{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  text-align: center;
+  /*background-color:#414141;*/
+  filter:alpha(opacity=90);
+  opacity:0.9;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  z-index:2;
+}
+/*
+#carregador_fundo{
+  font-size: 1px;
+  left: 8px;
+  width: 113px;
+  position: relative;
+  top: 50px;
+  height: 7px;
+  background-color: #ebebe4
+}
+*/
+#carregador_posicao{
+  padding-top:20%;
+}
+#loading{
+  border-right: #6a6a6a 1px solid;
+  padding: 10px 120px 10px 20px;
+  border-top: #6a6a6a 1px solid;
+  /*display: block;*/
+  font-size: 11px;
+  /*z-index: 2;*/
+  margin: 0px 0px 0px 500px;
+  border-left: #6a6a6a 1px solid;
+  width: 120px;
+  height:70px;
+  color: #000000;
+  border-bottom: #6a6a6a 1px solid;
+  font-family: Tahoma, Helvetica, sans;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+/*@media screen{
+  body>div#carregador_pai{
+    position: fixed;
+  }
+}
+*/
+div.auto{
+	height: 350px;
+	overflow: auto;
+}
+table.uploads_table {
+	background-color: #fafafa;
+	border: 1px #000000 solid;
+	width: 100%;
+}
+
+table.uploads_table tr:hover td {
+	background-color: #E5E5FF;
+	border-bottom: 1px #6699CC dotted;
+	border-top: 1px #6699CC dotted;
+}
+
+table.uploads_table tr .selected {
+	background-color: #809FFF;
+	color: #FFFFFF;
+}
+
+td.upload_table {
+	/*border: solid 1px;*/
+	border-bottom: 1px #E0E0E0 dotted;
+	padding: 2px;
+	background-color: #fafafa;
+}
+
+table.uploads_table a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+table.uploads_table a:hover {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+table.uploads_table a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+table.infos_table {
+	background-color: #fafafa;
+	border: 1px #000000 solid;
+	width: 50%;
+}
+
+table.infos_table tr:hover td {
+	background-color: #E5E5FF;
+	border-bottom: 1px #6699CC dotted;
+	border-top: 1px #6699CC dotted;
+}
+
+table.infos_table tr .selected {
+	background-color: #809FFF;
+	color: #FFFFFF;
+}
+
+td.info_table {
+	/*border: solid 1px;*/
+	border-bottom: 1px #E0E0E0 dotted;
+	padding: 2px;
+	background-color: #fafafa;
+}
+
+table.infos_table a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+table.infos_table a:hover {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+table.uploads_table a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+table div {
+	width:200px;
+	height:100px;
+	overflow: auto;
+}
+table.results_table {
+	background-color: #fafafa;
+	border: 1px #000000 solid;
+	width: 100%;
+}
+
+table.results_table tr:hover td {
+	background-color: #E5E5FF;
+	border-bottom: 1px #6699CC dotted;
+	border-top: 1px #6699CC dotted;
+}
+
+table.results_table tr .selected {
+	background-color: #809FFF;
+	color: #FFFFFF;
+}
+
+td.result_table {
+	/*border: solid 1px;*/
+	border-bottom: 1px #E0E0E0 dotted;
+	padding: 2px;
+	background-color: #fafafa;
+}
+
+table.results_table a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+table.results_table a:hover {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+table.results_table a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+#run {
+	display: block;
+	background-image: url("firstGradient.jpg");
+	background-position: 2px;
+	background-repeat: no-repeat;
+	margin: 2px 0 0;
+	padding: 10px;
+}
+
+#function a{
+	float: left;
+	padding: 0px 25px 0px 23px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+b.legend {
+	font-weight: bold;
+	margin: 0;
+	background-color: #DDD;
+	border: solid 1px #CCC;
+	font-size:120%;
+	height:1.1em;
+	color: rgb(51, 102, 153);
+}
+
+#function{
+	padding: 10px 0 0 0px;
+}
+
+#runsummary {
+	display: block;
+	margin-left: 200px;
+	padding-left: 1em;
+	border-left: solid 1px #AAA;
+}
+
+#gbkexample {
+    font-family:courier;
+    font-size: 12px;
+}
+
+/*START OF JOBQUEUE*/
+
+#link{
+	color: blue;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+/*END OF JOBQUEUE*/
